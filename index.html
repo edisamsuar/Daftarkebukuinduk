@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Buku Induk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Akses Daftar Ke Buku Induk</h1>
+        <p>
+            Akses hanya untuk Admin/Staf Dayah Madinatuddiniyah Babussalam.<br>
+            Jika Anda adalah Staf, silahkan masukkan Username dan PIN Anda.
+        </p>
+        <form onsubmit="return confirmCredentials()">
+            <input type="text" id="username" name="username" placeholder="Masukkan Username">
+            <input type="password" id="pin" name="pin" placeholder="Masukkan PIN">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
